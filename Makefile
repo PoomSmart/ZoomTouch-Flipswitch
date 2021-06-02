@@ -1,7 +1,8 @@
-ARCHS = armv7 armv7s arm64
-SDKVERSION = 7.0
+PACKAGE_VERSION = 1.0.0
+ARCHS = arm64 arm64e
+TARGET = iphone:clang:latest:11.0
 
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = ZoomTouch
 ZoomTouch_FILES = Switch.xm
