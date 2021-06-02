@@ -4,10 +4,10 @@ TARGET = iphone:clang:latest:11.0
 
 include $(THEOS)/makefiles/common.mk
 
-BUNDLE_NAME = ZoomTouch
-ZoomTouch_FILES = Switch.xm
-ZoomTouch_LIBRARIES = flipswitch
-ZoomTouch_INSTALL_PATH = /Library/Switches
-ZoomTouch_LDFLAGS = -lAccessibility
+BUNDLE_NAME = ZoomTouchFS
+ZoomTouchFS_FILES = Switch.xm
+ZoomTouchFS_LIBRARIES = flipswitch
+ZoomTouchFS_INSTALL_PATH = /Library/Switches
+ZoomTouchFS_LDFLAGS = -lAccessibility
 
 include $(THEOS_MAKE_PATH)/bundle.mk

@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>ZoomTouch</string>
+	<string>ZoomTouchFS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.PS.ZoomTouch</string>
+	<string>com.PS.ZoomTouchFS</string>
 	<key>CFBundleDisplayName</key>
 	<string>ZoomTouch</string>
 	<key>CFBundleInfoDictionaryVersion</key>
